@@ -1,0 +1,166 @@
+@import url(' https://fonts.cdnfonts.com/css/hagrid-trial ');
+body{
+    margin: auto;
+    scroll-behavior: smooth;
+    
+}
+
+/* snap */
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(18, 17, 24);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(48, 48, 48);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+      /* creates padding around scroll thumb */
+  }
+.main{
+    background-image: url(Images/first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about{
+    background-image: url(Images/second.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.contact{
+    background-image: url(Images/third.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hello{
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+    font-size: 70px;  
+}
+
+.both{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+#main > div > div:nth-child(1){
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#main > div > div:nth-child(2){
+    margin-left: 100px;
+}
+#main > div > div:nth-child(3) > button{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    .hello {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+    .btn {
+        font-size: 16px; /* Adjust button font size for smaller screens */
+        padding: 10px 20px; /* Adjust button padding for smaller screens */
+    }
+    #main > div > div:nth-child(1){
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    #main > div > div:nth-child(2){
+        margin-left: 50px;
+    }
+    #main > div > div:nth-child(3) > button{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    #about > div > div > div:nth-child(2) > div{
+        font-size: 15px;
+        flex-wrap: wrap;
+        
+    }
+}
+
+.about-first{
+    font-size: 70px;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+    
+    
+
+}
+
+.about-text{
+    font-size: 20px;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+    margin-top: 40px;
+    
+}
+
+.about-both{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-first{
+    font-size: 40px;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+    
+}
+.contact-text{
+    font-size: 20px;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+}
+
+.name{
+    font-size: 30px;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+}
+.dev{
+    font-size: 20px;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+}
+
+.contact-both{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.getting{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+}
+.getting1{
+    display: flex;
+    color: white;
+    font-family: 'Hagrid Trial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacts{
+    margin-top: 10px;
+}
+
+#contact > div > div.name{
+    display: flex;
+    margin-top: 100px;
+}
